@@ -1,0 +1,17 @@
+#goal definition
+uint16 start_id
+uint16 goal_id
+
+bool use_start # Whether to use the start field or find the start pose in TF
+string behavior_tree
+---
+#result definition
+std_msgs/Empty result
+---
+#feedback definition
+uint16 current_node_id
+builtin_interfaces/Duration navigation_time
+builtin_interfaces/Duration estimated_time_remaining
+int16 number_of_recoveries
+uint16 nodes_remaining
+float32 distance_remaining
