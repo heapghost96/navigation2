@@ -128,6 +128,7 @@ protected:
   std::string start_id_blackboard_id_;
   std::string goal_id_blackboard_id_;
   std::string use_start_blackboard_id_;
+  std::string use_poses_blackboard_id_;
   std::string path_blackboard_id_;
   std::string route_blackboard_id_;
 
