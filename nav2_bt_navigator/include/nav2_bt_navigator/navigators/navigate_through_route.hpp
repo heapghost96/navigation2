@@ -118,7 +118,7 @@ protected:
    * @param goal Action template's goal message to process
    * @return bool if goal was initialized successfully to be processed
    */
-  bool initializeGoalPose(ActionT::Goal::ConstSharedPtr goal);
+  bool initializeGoalThroughRoute(ActionT::Goal::ConstSharedPtr goal);
 
   rclcpp::Time start_time_;
 
