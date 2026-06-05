@@ -13,4 +13,11 @@
 	    <description>Navigate through Poses Navigator</description>
 	  </class>
 	</library>
+  <library path="nav2_navigate_through_route">
+	  <class
+	  	type="nav2_bt_navigator::NavigateThroughRouteNavigator"
+	  	base_class_type="nav2_core::NavigatorBase">
+	    <description>Navigate through Route Navigator</description>
+	  </class>
+	</library>
 </class_libraries>
